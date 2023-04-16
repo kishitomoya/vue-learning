@@ -11,5 +11,7 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  // 下記を追加
+  base: process.env.NODE_ENV === 'production' ? '/github-pages-test/' : './',
 })
