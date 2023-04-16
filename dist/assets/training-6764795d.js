@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-c27b6911.js";import{o as n,c as r}from"./index-6a058f50.js";const t={};function c(o,a){return n(),r("div",null," This is trainingPage! ")}const _=e(t,[["render",c]]);export{_ as default};
